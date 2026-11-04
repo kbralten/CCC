@@ -200,6 +200,26 @@ The cards enforce a healthy conversational rhythm by restricting which categorie
 
 The CCC repository creates ready-to-print PDF and HTML files formatted for standard **4" x 6"** photo cards, postcards, or index cards.
 
+### Automated Builds (GitHub Actions & Direct Downloads)
+
+A GitHub Actions workflow automatically compiles single-sided 4" x 6" PDF decks on push, pull requests, and manual triggers:
+* **Direct PDF Downloads (No unzipping required):** Standalone `.pdf` files are published directly to the repository's **[Releases](../../releases/latest)** page as individual release assets:
+  * `couples_conversation_cards_portrait_4x6.pdf` (Vertical, 4" x 6")
+  * `couples_conversation_cards_landscape_4x6.pdf` (Horizontal, 6" x 4")
+* **Workflow Artifacts:** Two separate artifacts are also uploaded on every run in the **Actions** tab (`couples_conversation_cards_portrait_4x6` and `couples_conversation_cards_landscape_4x6`).
+
+### Local Generation
+
+To generate both single-sided decks locally:
+```bash
+npm install
+npm run generate:both
+```
+
+Outputs are saved in the `output/` folder:
+* `output/couples_conversation_cards_portrait_4x6.pdf` (Vertical, 4" x 6")
+* `output/couples_conversation_cards_landscape_4x6.pdf` (Horizontal, 6" x 4")
+
 ### Printing Tips for Best Results
 * **Cardstock:** Print on 100 lb – 130 lb cover cardstock (or 300+ gsm photo paper) with a matte or satin finish.
 * **Corner Rounding:** Use a 4mm or 5mm corner punch on cut cards for a luxury feel and durable edges.
