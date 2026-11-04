@@ -2,6 +2,9 @@
 
 *A physical conversational framework designed to make empathetic, resolving dialogue "right by default."*
 
+> **Print-Ready PDF Decks (Latest Release):**  
+> 📄 **[Landscape / Horizontal Deck (6" x 4")](https://github.com/kbralten/CCC/releases/download/latest/couples_conversation_cards_landscape_4x6.pdf)** &nbsp;|&nbsp; 📄 **[Portrait / Vertical Deck (4" x 6")](https://github.com/kbralten/CCC/releases/download/latest/couples_conversation_cards_portrait_4x6.pdf)**
+
 ---
 
 ## Table of Contents
@@ -200,13 +203,12 @@ The cards enforce a healthy conversational rhythm by restricting which categorie
 
 The CCC repository creates ready-to-print PDF and HTML files formatted for standard **4" x 6"** photo cards, postcards, or index cards.
 
-### Automated Builds (GitHub Actions & Direct Downloads)
+### Direct PDF Downloads (Ready to Print)
 
-A GitHub Actions workflow automatically compiles single-sided 4" x 6" PDF decks on push, pull requests, and manual triggers:
-* **Direct PDF Downloads (No unzipping required):** Standalone `.pdf` files are published directly to the repository's **[Releases](../../releases/latest)** page as individual release assets:
-  * `couples_conversation_cards_portrait_4x6.pdf` (Vertical, 4" x 6")
-  * `couples_conversation_cards_landscape_4x6.pdf` (Horizontal, 6" x 4")
-* **Workflow Artifacts:** Two separate artifacts are also uploaded on every run in the **Actions** tab (`couples_conversation_cards_portrait_4x6` and `couples_conversation_cards_landscape_4x6`).
+Download the latest compiled single-sided 4" x 6" PDF decks directly (no unzipping required):
+
+* 📄 **[Download Landscape / Horizontal Deck (6" x 4")](https://github.com/kbralten/CCC/releases/download/latest/couples_conversation_cards_landscape_4x6.pdf)** — Tabletop 2-column view
+* 📄 **[Download Portrait / Vertical Deck (4" x 6")](https://github.com/kbralten/CCC/releases/download/latest/couples_conversation_cards_portrait_4x6.pdf)** — Classic vertical card layout
 
 ### Local Generation
 
