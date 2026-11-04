@@ -1,0 +1,22 @@
+{
+  "name": "ccc-card-generator",
+  "version": "1.0.0",
+  "description": "4x6 PDF card deck generator for Couples Conversation Cards (CCC)",
+  "main": "generate_cards_pdf.js",
+  "scripts": {
+    "generate": "node generate_cards_pdf.js --orientation=portrait",
+    "generate:landscape": "node generate_cards_pdf.js --orientation=landscape",
+    "generate:both": "node generate_cards_pdf.js --orientation=both",
+    "generate:backs": "node generate_cards_pdf.js --orientation=portrait --backs",
+    "generate:all": "node generate_cards_pdf.js --orientation=both --backs",
+    "generate:html": "node generate_cards_pdf.js --html-only --orientation=both",
+    "start": "node generate_cards_pdf.js"
+  },
+  "keywords": ["couples-cards", "dialogue-cards", "pdf-generator", "4x6-cards"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "puppeteer-core": "^25.16.0"
+  }
+}

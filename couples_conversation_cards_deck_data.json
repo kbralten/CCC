@@ -1,0 +1,1076 @@
+{
+"deck_name": "Couples Conversation Cards",
+"version": "1.0",
+"total_cards": 24,
+"categories": [
+{
+"name": "Meta / Anchor",
+"color": "Gold",
+"hex": "#D4AF37",
+"description": "Ground rules & shared relational posture (always visible)"
+},
+{
+"name": "Setting the Stage & Pacing",
+"color": "Blue",
+"hex": "#2563EB",
+"description": "Opening, bandwidth checks, rainchecking, and wrapping up"
+},
+{
+"name": "Inner World & Bids",
+"color": "Teal",
+"hex": "#0891B2",
+"description": "Vulnerability, sharing impact, attachment fears, and direct requests"
+},
+{
+"name": "Attunement & Inquiry",
+"color": "Purple",
+"hex": "#7C3AED",
+"description": "Active mirroring, validation, curious check-ins, and uncovering needs"
+},
+{
+"name": "Perspective & Context",
+"color": "Amber",
+"hex": "#D97706",
+"description": "Internal state, intent vs. impact, and parallel triggers"
+},
+{
+"name": "Collaboration & Bridges",
+"color": "Green",
+"hex": "#059669",
+"description": "Cycle mapping, passing the thread, and behavioral experiments"
+},
+{
+"name": "Circuit Breakers",
+"color": "Coral",
+"hex": "#E11D48",
+"description": "Nervous system resets, flooding pauses, and somatic grounding"
+}
+],
+"cards": [
+{
+"id": "M-01",
+"category": "Meta / Anchor",
+"color": "Gold",
+"title": "Us Against the Problem",
+"position": "Permanent Centerpiece",
+"intent": "Remain visible throughout dialogue to keep both partners united against the cycle rather than litigating blame.",
+"special_badge": "KEEP VISIBLE AT ALL TIMES",
+"protocols": [
+{
+"role": "Core Posture",
+"steps": [
+"We are two partners sitting on the same side of the table tackling a shared cycle together—not adversaries litigating blame."
+]
+},
+{
+"role": "Shared Axioms",
+"steps": [
+"THE SHARED COMMONS: Neither partner owns these cards. We both draw from the same shared palette of moves.",
+"CONNECTION OVER COMPLIANCE: Never use the cards to 'catch' your partner breaking a rule. If it feels punitive, reset.",
+"TWO REALITIES STAND TOGETHER: Acknowledging your partner's pain never erases your own experience or good intentions.",
+"PAUSING IS A COMMITMENT: Anyone can pause at any time. Pausing means we promise to return when our nervous systems settle."
+]
+}
+],
+"guardrails": [
+"No quoting rules as accusations ('You violated Rule 2!').",
+"No treating the conversation as a court case with a winner & loser.",
+"No talking when heart rates exceed ~100 BPM."
+],
+"verbal_formulas": [],
+"allowed_next": []
+},
+{
+"id": "M-02",
+"category": "Meta / Anchor",
+"color": "Gold",
+"title": "Two Realities Can Stand Together",
+"position": "Permanent Centerpiece",
+"intent": "Remind both partners that validating emotional pain does not require conceding fault or erasing the other's perspective.",
+"special_badge": "KEEP VISIBLE AT ALL TIMES",
+"protocols": [
+{
+"role": "Core Posture",
+"steps": [
+"Validating your partner’s emotional reality does NOT mean conceding fault, admitting defeat, or rewriting history."
+]
+},
+{
+"role": "Reminders for Both Partners",
+"steps": [
+"Two people can experience the exact same 30 seconds completely differently and both be speaking the emotional truth.",
+"Acknowledging hurt is not admitting you are a bad partner.",
+"Your parked stickies will not be forgotten. First we make room for one experience, then we cross the bridge to the other."
+]
+}
+],
+"guardrails": [
+"No litigating a single, objective 'historical court transcript.'",
+"No withholding empathy out of fear it will be used against you.",
+"No jumping into your side before your partner feels registered."
+],
+"verbal_formulas": [],
+"allowed_next": []
+},
+{
+"id": "B-01",
+"category": "Setting the Stage & Pacing",
+"color": "Blue",
+"title": "The Invitation: Propose a Talk & Agree on Time",
+"position": "Conversation Trail",
+"intent": "Check availability and set a firm time boundary so neither partner feels ambushed, cornered, or trapped in an endless marathon.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Initiating Partner",
+"steps": [
+"Name a single, specific topic (no kitchen-sinking).",
+"Propose a firm time cap (15–20 minutes maximum).",
+"You keep the floor once agreed—place your content card next!"
+]
+},
+{
+"role": "Responding Partner",
+"steps": [
+"Check your capacity honestly: accept now, adjust time, or raincheck.",
+"You do NOT need to play a card just to say yes."
+]
+}
+],
+"guardrails": [
+"No ambushing while walking out the door or right before sleep.",
+"No piling multiple unresolved complaints into one invitation.",
+"No marathon talks with unspecified end times."
+],
+"verbal_formulas": [
+{
+"role": "Initiator",
+"script": "I’d love to talk through [single topic] so we can get on the same page. Do you have 20 minutes right now?"
+},
+{
+"role": "Responder",
+"script": "Yes, I have capacity now. / I'm running on empty right now; can we sit down at 7:00 PM after dinner? (Play B-04)"
+}
+],
+"allowed_next": [
+{ "category": "Teal", "action": "Share Hurt/Bid (T-01, T-02, T-03)" },
+{ "category": "Purple", "action": "Tender Question (P-03)" },
+{ "category": "Blue", "action": "Schedule Raincheck (B-04)" }
+]
+},
+{
+"id": "B-02",
+"category": "Setting the Stage & Pacing",
+"color": "Blue",
+"title": "Check-In on Bandwidth & Capacity",
+"position": "Conversation Trail",
+"intent": "Prevent starting a deep conversation when either nervous system is operating on empty battery.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Checking Partner",
+"steps": [
+"State your current emotional and physical battery level (1–10).",
+"Name any background drains (fatigue, hunger, work overload)."
+]
+},
+{
+"role": "Partner Checking in Return",
+"steps": [
+"Share your honest battery level without matching out of guilt.",
+"If either partner is below 4/10, downscale the talk or reschedule."
+]
+}
+],
+"guardrails": [
+"No faking a 9/10 when depleted just to get it over with.",
+"No guilt-tripping a partner for being at low battery.",
+"No opening heavy relational topics if either partner is under 4/10."
+],
+"verbal_formulas": [
+{
+"role": "Checker",
+"script": "On a scale of 1–10, my battery is around a [X]. I'm also carrying [work stress / headache / fatigue]."
+},
+{
+"role": "Responder",
+"script": "I'm sitting at a [Y]. Given where we're at, let's keep this focused / let's grab food first / let's talk tomorrow."
+}
+],
+"allowed_next": [
+{ "category": "Teal", "action": "Light Share (T-01, T-02)" },
+{ "category": "Coral", "action": "Somatic Hug (C-03)" },
+{ "category": "Blue", "action": "Raincheck (B-04)" }
+]
+},
+{
+"id": "B-03",
+"category": "Setting the Stage & Pacing",
+"color": "Blue",
+"title": "Wrap Up, Appreciate & Ground",
+"position": "Conversation Trail",
+"intent": "Step out of the conversation with mutual warmth and clear the air so residual tension does not spill into the rest of the day.",
+"special_badge": null,
+"protocols": [
+{
+"role": "First Partner",
+"steps": [
+"Name one specific thing your partner did well during the talk.",
+"Clear and recycle used stickies from the table mat."
+]
+},
+{
+"role": "Second Partner",
+"steps": [
+"Return a specific appreciation for how your partner showed up.",
+"Join in physical contact (handhold or grounding hug) to land."
+]
+}
+],
+"guardrails": [
+"No slipping in 'one last grievance' on the way out the door.",
+"No passive-aggressive lingering or cold treatment after wrapping up.",
+"No reopening the issue once cards are gathered."
+],
+"verbal_formulas": [
+{
+"role": "First",
+"script": "Thank you for [not getting defensive / listening so patiently when I was clumsy]. That really helped me stay grounded."
+},
+{
+"role": "Second",
+"script": "Thank you for bringing this up with care. We are good, and I love you."
+}
+],
+"allowed_next": [
+{ "category": "Blue", "action": "Talk Finished" },
+{ "category": "Coral", "action": "Grounding Hug (C-03)" }
+]
+},
+{
+"id": "B-04",
+"category": "Setting the Stage & Pacing",
+"color": "Blue",
+"title": "Schedule a Conscious Raincheck",
+"position": "Conversation Trail",
+"intent": "Postpone dialogue safely when exhausted or flooded without letting it deteriorate into avoidant stonewalling.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Requesting Partner",
+"steps": [
+"Own the constraint cleanly (exhaustion, sensory overload, timing).",
+"Offer a specific, non-negotiable return time within 24 hours."
+]
+},
+{
+"role": "Accepting Partner",
+"steps": [
+"Accept the deferral without punitive commentary.",
+"Write your topic on a sticky note and park it under this card."
+]
+}
+],
+"guardrails": [
+"No saying 'we'll talk later' without a concrete calendar time.",
+"No using rainchecks as an escape hatch to avoid the subject forever.",
+"No guilt-tripping your partner for needing to postpone."
+],
+"verbal_formulas": [
+{
+"role": "Requester",
+"script": "I really care about this, but my head is spinning / I am running on empty. Can we sit down tomorrow morning at 9:30 AM?"
+},
+{
+"role": "Accepter",
+"script": "Yes. I will write this down and park it. We will pick it up tomorrow at 9:30 AM."
+}
+],
+"allowed_next": [
+{ "category": "Blue", "action": "Wrap Up & Ground (B-03)" }
+]
+},
+{
+"id": "T-01",
+"category": "Inner World & Bids",
+"color": "Teal",
+"title": "Share Hurt / Impact",
+"position": "Conversation Trail",
+"intent": "Express the emotional sting of an event cleanly without turning it into a courtroom prosecution of your partner's character.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Sharing Partner",
+"steps": [
+"Stick strictly to neutral, camera-observable facts (what happened).",
+"Name your internal story and the primary vulnerable emotion.",
+"Speak only about your internal experience, not their intent."
+]
+},
+{
+"role": "Receiving Partner",
+"steps": [
+"Absorb the emotional impact without interrupting.",
+"If defensive rebuttals surge, write a sticky note and park it!"
+]
+}
+],
+"guardrails": [
+"No 'You make me feel...' statements or character assassinations.",
+"No absolute generalizations ('You always...', 'You never...').",
+"No unsolicited counter-explanations from the receiver."
+],
+"verbal_formulas": [
+{
+"role": "Sharing",
+"script": "When [specific factual event happened], the story I made up was [X], and what I felt underneath was [hurt / alone / scared]."
+},
+{
+"role": "Receiving",
+"script": "I hear that that stung. Let me make sure I'm taking that in before I say anything else. (Play P-01 or P-02)"
+}
+],
+"allowed_next": [
+{ "category": "Purple", "action": "Mirror & Reflect (P-01)" },
+{ "category": "Purple", "action": "Validate Emotional Logic (P-02)" },
+{ "category": "Coral", "action": "Flooding Pause (C-01)" }
+]
+},
+{
+"id": "T-02",
+"category": "Inner World & Bids",
+"color": "Teal",
+"title": "Bid for Reassurance",
+"position": "Conversation Trail",
+"intent": "Voice relationship anxiety or tender insecurity when no acute fight has happened, asking for warmth and grounding.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Bidding Partner",
+"steps": [
+"Own the insecurity as internal rather than blaming your partner.",
+"Clearly ask for relational reassurance and warmth."
+]
+},
+{
+"role": "Responding Partner",
+"steps": [
+"Offer immediate, unreserved warmth and physical contact.",
+"Resist debating whether the insecurity is 'rational.'"
+]
+}
+],
+"guardrails": [
+"No logical dismissals ('Why ask that? Of course we're fine, silly').",
+"No treating vulnerability as high-maintenance or needy.",
+"No passive-aggressive fishing for compliments."
+],
+"verbal_formulas": [
+{
+"role": "Bidder",
+"script": "You haven't done anything wrong. My own insecurity is high today, and I just need to hear that we are okay and you love me."
+},
+{
+"role": "Responder",
+"script": "We are completely good. I love you, and I am right here with you. (Offer hug or handhold)"
+}
+],
+"allowed_next": [
+{ "category": "Purple", "action": "Reassure & Validate (P-02)" },
+{ "category": "Coral", "action": "60-Second Hug (C-03)" },
+{ "category": "Blue", "action": "Wrap Up & Appreciate (B-03)" }
+]
+},
+{
+"id": "T-03",
+"category": "Inner World & Bids",
+"color": "Teal",
+"title": "Name the Attachment Fear / Raw Wound",
+"position": "Conversation Trail",
+"intent": "Drop beneath surface irritation to expose the primal relational vulnerability fueling your reaction.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Sharing Partner",
+"steps": [
+"Look beneath anger, snapping, or withdrawal.",
+"Name the deeper fear: being unworthy, unloved, alone, or a burden."
+]
+},
+{
+"role": "Receiving Partner",
+"steps": [
+"Treat this as sacred ground—soften your voice, posture, and facial expression immediately.",
+"Hold space for the fear without arguing facts."
+]
+}
+],
+"guardrails": [
+"No debating whether they 'should' have that attachment fear.",
+"No weaponizing past wounds ('You're just acting like your dad').",
+"No hiding vulnerability behind sarcastic humor."
+],
+"verbal_formulas": [
+{
+"role": "Sharing",
+"script": "Underneath my snap, what I was really feeling was: [I don't matter to you / I'm failing you / I'm all alone]."
+},
+{
+"role": "Receiving",
+"script": "Thank you for showing me that soft spot. It hurts to hear you felt that, and I want you to feel safe with me."
+}
+],
+"allowed_next": [
+{ "category": "Purple", "action": "Validate Emotional Logic (P-02)" },
+{ "category": "Coral", "action": "Somatic Hug (C-03)" }
+]
+},
+{
+"id": "T-04",
+"category": "Inner World & Bids",
+"color": "Teal",
+"title": "Own My Part Early",
+"position": "Conversation Trail",
+"intent": "Disarm escalation at the outset by voluntarily naming your own unhelpful behavior before being called out.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Owning Partner",
+"steps": [
+"Name your specific action or tone with clean accountability.",
+"Keep it free of excuses or conditional clauses."
+]
+},
+{
+"role": "Receiving Partner",
+"steps": [
+"Receive the ownership with clean gratitude.",
+"Do not use it as leverage or a victory lap."
+]
+}
+],
+"guardrails": [
+"No conditional apologies ('I was short, BUT only because you...').",
+"No self-pitying theatrics ('I guess I'm just the worst partner').",
+"No gloating ('Finally you admit you were wrong!')."
+],
+"verbal_formulas": [
+{
+"role": "Owning",
+"script": "Looking back at earlier, I see where I contributed: I was short with you / I rolled my eyes / I checked out. That wasn't fair."
+},
+{
+"role": "Receiving",
+"script": "Thank you for acknowledging that unprompted. That really helps my nervous system relax."
+}
+],
+"allowed_next": [
+{ "category": "Purple", "action": "Validate & Appreciate (P-02)" },
+{ "category": "Green", "action": "Map the Shared Cycle (G-01)" }
+]
+},
+{
+"id": "P-01",
+"category": "Attunement & Inquiry",
+"color": "Purple",
+"title": "Paraphrase & Mirror",
+"position": "Conversation Trail",
+"intent": "Prove you are absorbing your partner's actual words rather than rehearsing your rebuttal in your head.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Mirroring Partner",
+"steps": [
+"Echo back what you heard using their core words.",
+"Check for accuracy before offering any interpretation."
+]
+},
+{
+"role": "Original Speaker",
+"steps": [
+"Listen to hear if your meaning landed.",
+"Confirm with a gentle nod or clarify the missing nuance cleanly."
+]
+}
+],
+"guardrails": [
+"No sarcastic parroting or exaggerated tone.",
+"No inserting your own editorial spin into the summary.",
+"No moving on until the speaker feels accurately mirrored."
+],
+"verbal_formulas": [
+{
+"role": "Mirror",
+"script": "What I hear you saying is that when [X] happened, you felt [Y] and it left you feeling [Z]. Did I capture that accurately?"
+},
+{
+"role": "Speaker",
+"script": "Yes, exactly. / You got most of it, but the part that hurt deepest was actually [nuance]."
+}
+],
+"allowed_next": [
+{ "category": "Purple", "action": "Validate Emotional Logic (P-02)" },
+{ "category": "Teal", "action": "Clarify / Deepen Hurt (T-01)" }
+]
+},
+{
+"id": "P-02",
+"category": "Attunement & Inquiry",
+"color": "Purple",
+"title": "Validate Emotional Logic",
+"position": "Conversation Trail",
+"intent": "Confirm that your partner's emotional response makes rational sense given their perspective and what they experienced.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Validating Partner",
+"steps": [
+"Connect their feeling to what they perceived or their past history.",
+"Affirm the emotional validity of their reaction completely."
+]
+},
+{
+"role": "Heard Partner",
+"steps": [
+"Notice how your body registers the validation.",
+"Let the comfort in without immediately escalating with new points."
+]
+}
+],
+"guardrails": [
+"No poisonous 'BUT...' clauses ('I get why you felt that, BUT...').",
+"No debating whether their feelings are logically 'justified.'",
+"No treating validation as a legal admission of guilt."
+],
+"verbal_formulas": [
+{
+"role": "Validating",
+"script": "Given that you saw [X] and thought [Y], it makes complete sense that you felt hurt / alone / shut down."
+},
+{
+"role": "Heard",
+"script": "Thank you for seeing that. That makes a big difference to hear out loud."
+}
+],
+"allowed_next": [
+{ "category": "Green", "action": "Map Our Shared Cycle (G-01)" },
+{ "category": "Green", "action": "I Feel Met / Your Turn (G-02)" },
+{ "category": "Purple", "action": "Tender Curiosity (P-03)" }
+]
+},
+{
+"id": "P-03",
+"category": "Attunement & Inquiry",
+"color": "Purple",
+"title": "Curious Check-In / Tender Question",
+"position": "Conversation Trail",
+"intent": "Lean in with genuine warmth to explore what is happening beneath the surface without asking interrogating questions.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Inquiring Partner",
+"steps": [
+"Ask an open-ended, non-leading emotional question.",
+"Listen purely to understand, not to gather evidence for a defense."
+]
+},
+{
+"role": "Sharing Partner",
+"steps": [
+"Speak to your interior world; trust the open door.",
+"Focus on what was hardest for you in that moment."
+]
+}
+],
+"guardrails": [
+"No trap questions ('Don't you think you overreacted?').",
+"No cross-examining factual timelines or inconsistencies.",
+"No interrupting their answer to correct their memory."
+],
+"verbal_formulas": [
+{
+"role": "Inquirer",
+"script": "I notice distance between us / some tension in the air. What's on your heart? What was the hardest part of that for you?"
+},
+{
+"role": "Sharer",
+"script": "What felt hardest was feeling like I wasn't being taken seriously when I brought up [Topic]."
+}
+],
+"allowed_next": [
+{ "category": "Teal", "action": "Share Hurt (T-01)" },
+{ "category": "Teal", "action": "Name Fear / Wound (T-03)" }
+]
+},
+{
+"id": "P-04",
+"category": "Attunement & Inquiry",
+"color": "Purple",
+"title": "Name the Underlying Need",
+"position": "Conversation Trail",
+"intent": "Help translate anger or frustration into the universal human relational need sitting underneath.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Inquiring Partner",
+"steps": [
+"Offer a gentle, tentative guess about their core emotional need.",
+"Hold your guess lightly without insisting you are right."
+]
+},
+{
+"role": "Sharing Partner",
+"steps": [
+"Check inside: does that hit the mark, or is the need different?",
+"Name what would help you feel safe, valued, or connected."
+]
+}
+],
+"guardrails": [
+"No diagnosing or dictating what they 'should' need.",
+"No shaming them for having basic attachment needs.",
+"No jumping directly into problem-solving until the need is clear."
+],
+"verbal_formulas": [
+{
+"role": "Inquirer",
+"script": "It sounds like in that moment, what you really needed was to feel prioritized / supported / held. Is that what was missing?"
+},
+{
+"role": "Sharer",
+"script": "Yes, exactly. I just needed to know you were in my corner."
+}
+],
+"allowed_next": [
+{ "category": "Green", "action": "Needs Co-Design (G-04)" },
+{ "category": "Teal", "action": "Clarify Hurt (T-01)" }
+]
+},
+{
+"id": "A-01",
+"category": "Perspective & Context",
+"color": "Amber",
+"title": "Context & My Reality",
+"position": "Conversation Trail",
+"intent": "Share missing timeline details or internal pressures without wiping out your partner's emotional experience.",
+"special_badge": "ONLY AFTER VALIDATION",
+"protocols": [
+{
+"role": "Explaining Partner",
+"steps": [
+"Re-affirm your partner's hurt first.",
+"Offer your internal state as information, never justification.",
+"Pull in any parked sticky notes from Quadrant 1 on the mat."
+]
+},
+{
+"role": "Listening Partner",
+"steps": [
+"Receive the context as missing pieces of the puzzle.",
+"Remember that hearing their context doesn't cancel your hurt."
+]
+}
+],
+"guardrails": [
+"No using context to erase impact ('I had a bad day, so let it go').",
+"No playing before your partner's feelings have been validated.",
+"No competing over who had a harder day or more stress."
+],
+"verbal_formulas": [
+{
+"role": "Explainer",
+"script": "Now that I've heard your hurt, can I share what was happening on my end? I was dealing with [overload / work stress], which is what led to [action]."
+},
+{
+"role": "Listener",
+"script": "I can hear that you were overloaded. It helps me see the whole picture, even though it still hurt."
+}
+],
+"allowed_next": [
+{ "category": "Purple", "action": "Mirror Context (P-01)" },
+{ "category": "Green", "action": "Map Our Shared Cycle (G-01)" }
+]
+},
+{
+"id": "A-02",
+"category": "Perspective & Context",
+"color": "Amber",
+"title": "Intention vs. Impact Reconciliation",
+"position": "Conversation Trail",
+"intent": "Own the painful gap between what you meant to do and what your partner actually experienced.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Explaining Partner",
+"steps": [
+"Clarify the positive or neutral goal you were pursuing.",
+"Unequivocally apologize for the unintended hurt that landed."
+]
+},
+{
+"role": "Listening Partner",
+"steps": [
+"Make space for the reality of their positive/neutral intent.",
+"Hold both: they didn't mean to wound you, AND you were wounded."
+]
+}
+],
+"guardrails": [
+"No 'That's not what I meant, so you shouldn't feel hurt.'",
+"No defending clumsy behavior purely behind good intentions.",
+"No minimizing the impact as illogical or unreasonable."
+],
+"verbal_formulas": [
+{
+"role": "Explainer",
+"script": "My intention was [helpful / peaceful X]. However, I see clearly that the impact on you was [hurt / loneliness Y]. I am so sorry that my actions produced that outcome."
+},
+{
+"role": "Listener",
+"script": "I appreciate knowing you didn't mean to hurt me. That helps me release the story that you were trying to attack me."
+}
+],
+"allowed_next": [
+{ "category": "Purple", "action": "Validate (P-02)" },
+{ "category": "Green", "action": "Small Behavioral Experiment (G-03)" }
+]
+},
+{
+"id": "A-03",
+"category": "Perspective & Context",
+"color": "Amber",
+"title": "Share My Parallel Trigger",
+"position": "Conversation Trail",
+"intent": "Share what historical wound or tender spot was activated in you so both partners can see why the mutual collision occurred.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Explaining Partner",
+"steps": [
+"Name the old wound or raw nerve touched during the interaction.",
+"Frame your reaction as self-protection, not malicious retaliation."
+]
+},
+{
+"role": "Listening Partner",
+"steps": [
+"Recognize that both nervous systems were triggered simultaneously.",
+"Hold their trigger with equal care and respect."
+]
+}
+],
+"guardrails": [
+"No comparing triggers ('My trigger was worse than yours').",
+"No using your past trigger as a permanent excuse for poor behavior.",
+"No mocking or minimizing their historical sensitivities."
+],
+"verbal_formulas": [
+{
+"role": "Explainer",
+"script": "When [X] happened, it hit an old wound for me: I felt [criticized / micromanaged / dismissed], which triggered my walls."
+},
+{
+"role": "Listener",
+"script": "I see how that poked your raw spot. I can understand why your defenses went up so quickly."
+}
+],
+"allowed_next": [
+{ "category": "Purple", "action": "Attune to Trigger (P-02)" },
+{ "category": "Green", "action": "Map Our Shared Cycle (G-01)" }
+]
+},
+{
+"id": "G-01",
+"category": "Collaboration & Bridges",
+"color": "Green",
+"title": "Map Our Shared Cycle (The Bridge)",
+"position": "Conversation Trail",
+"intent": "Reframe the fight from 'You vs. Me' to 'Us vs. The Cycle.'",
+"special_badge": null,
+"protocols": [
+{
+"role": "Co-Mapping Partners (Together)",
+"steps": [
+"Trace the mutual feedback loop step by step.",
+"Externalize the cycle as the common enemy catching both of you.",
+"Warmly invite the second partner's experience into focus."
+]
+}
+],
+"guardrails": [
+"No assigning origin blame ('You started the loop!').",
+"No rigid psychological labeling ('You're the avoider/pursuer').",
+"No litigating past historical instances of the cycle."
+],
+"verbal_formulas": [
+{
+"role": "Initiating",
+"script": "When [Trigger] happens, I tend to [Reaction A], which makes you feel [Feeling B], so you react by [Reaction B], which pulls me right back into [Reaction A]."
+},
+{
+"role": "Responding",
+"script": "That’s the exact loop. We both get trapped in it. Now that we see it, can I share what happened on my side?"
+}
+],
+"allowed_next": [
+{ "category": "Amber", "action": "Other Context (A-01)" },
+{ "category": "Teal", "action": "Other Hurt/Fear (T-01, T-03)" },
+{ "category": "Green", "action": "Small Experiment (G-03)" }
+]
+},
+{
+"id": "G-02",
+"category": "Collaboration & Bridges",
+"color": "Green",
+"title": "I Feel Met / Your Turn to Share",
+"position": "Conversation Trail",
+"intent": "A voluntary, organic completion move by the first speaker to step back, thank their partner, and open the floor to their experience.",
+"special_badge": null,
+"protocols": [
+{
+"role": "First Speaker (Stepping Back)",
+"steps": [
+"Affirm that your nervous system feels settled and heard.",
+"Warmly invite your partner's internal experience into the light."
+]
+},
+{
+"role": "Second Speaker (Stepping Forward)",
+"steps": [
+"Unpark your sticky notes from the table mat.",
+"Speak from your own experience, not as an attack on what was said."
+]
+}
+],
+"guardrails": [
+"No closing the track if unresolved hurt is still actively burning.",
+"No treating the second turn as a cross-examination rebuttal.",
+"No rushing your partner when they step forward to share."
+],
+"verbal_formulas": [
+{
+"role": "First",
+"script": "Thank you for listening so carefully. I feel registered on my piece. I want to clear the floor for you—what was this like for you?"
+},
+{
+"role": "Second",
+"script": "Thank you. What was coming up for me while listening was [X], and I’d like to share my piece now. (Play Teal or Amber)"
+}
+],
+"allowed_next": [
+{ "category": "Teal", "action": "My Inner World (T-01)" },
+{ "category": "Amber", "action": "My Context (A-01)" },
+{ "category": "Blue", "action": "Wrap Up & Appreciate (B-03)" }
+]
+},
+{
+"id": "G-03",
+"category": "Collaboration & Bridges",
+"color": "Green",
+"title": "Small Behavioral Experiment",
+"position": "Conversation Trail",
+"intent": "Commit to a tangible, bite-sized behavioral test for the coming week instead of making sweeping, unrealistic promises.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Co-Designing Partners",
+"steps": [
+"Pick ONE concrete, observable action to test for the next 7 days.",
+"Agree on a specific check-in time to review how it felt."
+]
+}
+],
+"guardrails": [
+"No sweeping, impossible promises ('I will never get upset again').",
+"No one-sided agreements where only one partner does all the adapting.",
+"No treating a minor slip-up during the week as a total failure."
+],
+"verbal_formulas": [
+{
+"role": "Proposer",
+"script": "Next time [Trigger] occurs, what if we try [Micro-Action] for 7 days and see if it takes the edge off?"
+},
+{
+"role": "Partner",
+"script": "I like that. Let's test it for one week and review on Sunday after breakfast. (Write on sticky note)"
+}
+],
+"allowed_next": [
+{ "category": "Blue", "action": "Wrap Up & Ground (B-03)" },
+{ "category": "Green", "action": "Needs Co-Design (G-04)" }
+]
+},
+{
+"id": "G-04",
+"category": "Collaboration & Bridges",
+"color": "Green",
+"title": "Needs Co-Design",
+"position": "Conversation Trail",
+"intent": "Treat differing relational needs as an optimization puzzle to solve together rather than an irreconcilable incompatibility.",
+"special_badge": null,
+"protocols": [
+{
+"role": "Both Partners Together",
+"steps": [
+"Name both needs side by side without ranking one above the other.",
+"Brainstorm setups where both needs are respected at least 80%."
+]
+}
+],
+"guardrails": [
+"No treating your need as 'normal' and your partner's need as 'crazy.'",
+"No zero-sum bargaining ('I won't do X unless you do Y').",
+"No agreeing to an arrangement that builds hidden resentment."
+],
+"verbal_formulas": [
+{
+"role": "Partner A",
+"script": "My core need in this is [Need A: e.g. prompt check-ins]."
+},
+{
+"role": "Partner B",
+"script": "My core need in this is [Need B: e.g. quiet decompression time]. How do we build a setup that honors both of those?"
+}
+],
+"allowed_next": [
+{ "category": "Green", "action": "Small Behavioral Experiment (G-03)" },
+{ "category": "Blue", "action": "Wrap Up & Appreciate (B-03)" }
+]
+},
+{
+"id": "C-01",
+"category": "Circuit Breakers",
+"color": "Coral",
+"title": "Flooding Time-Out (20-Minute Reset)",
+"position": "Universal Override",
+"intent": "Halt dialogue when heart rates exceed ~100 BPM and the prefrontal cortex goes offline, preventing biological escalation.",
+"special_badge": "OVERRIDES ALL ACTIVE CARDS",
+"protocols": [
+{
+"role": "Requesting Partner",
+"steps": [
+"Signal biological overload (tight chest, racing pulse, spinning).",
+"Set a timer for 20 minutes and state a mandatory return time.",
+"Soothe your nervous system (walk, cold water, breathing)."
+]
+},
+{
+"role": "Receiving Partner",
+"steps": [
+"Honor the break instantly—no parting words or trailing pursuit.",
+"Use the time to regulate, not rehearse counter-arguments."
+]
+}
+],
+"guardrails": [
+"No parting jabs or zingers on the way out of the room.",
+"No weaponizing breaks to stonewall or avoid returning.",
+"No ruminating or building prosecution files while on break."
+],
+"verbal_formulas": [
+{
+"role": "Requester",
+"script": "My nervous system is flooded and I cannot listen well. I need a 20-minute break. I will be back at [exact time]."
+},
+{
+"role": "Receiver",
+"script": "I hear you. Let's take the 20 minutes. I will see you at [exact time]."
+}
+],
+"allowed_next": [
+{ "category": "Blue", "action": "Check Bandwidth (B-02)" },
+{ "category": "Coral", "action": "Somatic Hug (C-03)" }
+]
+},
+{
+"id": "C-02",
+"category": "Circuit Breakers",
+"color": "Coral",
+"title": "Process Weaponization / Grace Reset",
+"position": "Universal Override",
+"intent": "Stop either partner from using the card framework as a weapon or acting like a rigid process referee.",
+"special_badge": "OVERRIDES ALL ACTIVE CARDS",
+"protocols": [
+{
+"role": "Calling Partner",
+"steps": [
+"Call out process policing gently without shaming.",
+"Ask for a clean reset of tone and posture."
+]
+},
+{
+"role": "Accepting Partner",
+"steps": [
+"Exhale, laugh, or drop defensiveness immediately.",
+"Release the preceding 3 minutes from active debate.",
+"Take three synchronized deep breaths together."
+]
+}
+],
+"guardrails": [
+"No saying 'You played that card wrong!' or 'You broke Rule 3!'",
+"No penalizing each other for needing a reset.",
+"No carrying pre-reset arguments into the renewed space."
+],
+"verbal_formulas": [
+{
+"role": "Calling",
+"script": "We're starting to litigate the rules rather than connect. Let's call a Grace Reset, take three breaths, and start fresh."
+},
+{
+"role": "Accepting",
+"script": "You're right. I was getting into process-cop mode. Let's take three breaths together."
+}
+],
+"allowed_next": [
+{ "category": "Gold", "action": "Re-Anchor (M-01)" },
+{ "category": "Coral", "action": "Somatic Hug (C-03)" }
+]
+},
+{
+"id": "C-03",
+"category": "Circuit Breakers",
+"color": "Coral",
+"title": "60-Second Grounding Hug",
+"position": "Universal Override",
+"intent": "Use mammalian nervous system co-regulation to drain fight-or-flight adrenaline without needing spoken words.",
+"special_badge": "OVERRIDES ALL ACTIVE CARDS",
+"protocols": [
+{
+"role": "Offering Partner",
+"steps": [
+"Gently ask permission for physical contact.",
+"Hold silently for a full 60 seconds with steady, deep exhalations."
+]
+},
+{
+"role": "Receiving Partner",
+"steps": [
+"Accept, modify, or decline touch freely without guilt.",
+"If accepted, drop physical tension in jaw, neck, and shoulders."
+]
+}
+],
+"guardrails": [
+"No speaking, explaining, or sighing sarcastically during the hug.",
+"No taking touch refusal as personal rejection when overstimulated.",
+"No sexualizing grounding contact during conflict."
+],
+"verbal_formulas": [
+{
+"role": "Offering",
+"script": "Can we pause the words and do a 60-second hug just to ground our nervous systems?"
+},
+{
+"role": "Receiving",
+"script": "Yes, please. / I'm too overstimulated for a full hug; can we just hold hands for a minute?"
+}
+],
+"allowed_next": [
+{ "category": "Previous", "action": "Resume Previous Active Card" },
+{ "category": "Blue", "action": "Wrap Up & Appreciate (B-03)" },
+{ "category": "Coral", "action": "Flooding Pause (C-01)" }
+]
+}
+]
+}
